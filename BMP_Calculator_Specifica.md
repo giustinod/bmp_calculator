@@ -296,3 +296,11 @@ Il canone copre: aggiornamenti dipendenze (Streamlit, psycopg2, bcrypt), correzi
 - Valutare migrazione a st-oauth (Google/GitHub) per eliminare la gestione password
 - Aggiungere paginazione e filtri sulla vista log per l'admin
 - Considerare Heroku Scheduler per archiviazione periodica dei log
+
+### 7.4 Situazione attuale
+
+**Heroku (heroku remote)** → deploy live: https://radiant-beyond-48979-97c810ac5553.herokuapp.com/
+**GitHub (origin remote)** → https://github.com/giustinod/bmp_calculator → backup/storico del codice, con LICENSE e CLAUDE.md inclusi
+**CLAUDE.md** → contesto persistente per future sessioni (cosa è mock, decisioni prese, note su Safari/paste, ecc.)
+
+Struttura del progetto a posto. Prossimi push: ricordati di spingere su entrambi i remote (git push origin main e git push heroku main) quando fai modifiche.
